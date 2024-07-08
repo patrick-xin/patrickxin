@@ -9,6 +9,7 @@ import { cn } from "@/lib/utils";
 import { ThemeToggle } from "./theme-toggle";
 import UserProfile from "./profile";
 import MobileDrawer from "./mobile-drawer";
+import Logo from "../logo";
 
 const MainNav = ({ fixed = false }) => {
   const { data } = useSession();
@@ -25,9 +26,7 @@ const MainNav = ({ fixed = false }) => {
       )}
     >
       <div className="mx-auto flex w-full max-w-4xl items-center">
-        <Link href="/" className="inline-block">
-          <Image alt="logo-image" src="/logo.svg" height={32} width={32} />
-        </Link>
+        <Logo />
         <div className="flex flex-1 items-center justify-end gap-6 md:gap-8 lg:gap-10">
           <ul className="hidden items-center gap-6 text-sm md:gap-8 md:text-base lg:flex lg:gap-10">
             <li>
