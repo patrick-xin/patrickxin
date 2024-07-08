@@ -1,0 +1,37 @@
+{
+	"$schema": "https://biomejs.dev/schemas/1.8.3/schema.json",
+	"organizeImports": {
+		"enabled": true
+	},
+	"files": {
+		"ignore": [
+			"content/**",
+			".contentlayer/**",
+			".next/**",
+			"prisma/**",
+			"public/**"
+		]
+	},
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"recommended": true,
+			"complexity": {
+				"noForEach": "off",
+				"noExtraBooleanCast": "off",
+				"useOptionalChain": "off"
+			},
+			"suspicious": {
+				"noShadowRestrictedNames": "off",
+				"noArrayIndexKey": "off",
+				"noExplicitAny": "off"
+			},
+			"a11y": {
+				"noSvgWithoutTitle": "off"
+			},
+			"correctness": {
+				"useExhaustiveDependencies": "off"
+			}
+		}
+	}
+}
