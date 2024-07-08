@@ -44,7 +44,7 @@ const contentLayerConfig = makeSource({
   contentDirPath: "content/posts",
   documentTypes: [Post],
   mdx: {
-    remarkPlugins: [remarkExternalLinks, remarkGfm],
+    //remarkPlugins: [remarkExternalLinks, remarkGfm],
     rehypePlugins: [
       () => (tree) => {
         visit(tree, (node) => {
