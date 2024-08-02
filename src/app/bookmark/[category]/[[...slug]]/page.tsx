@@ -71,12 +71,12 @@ const Page = ({ params }: PageProps) => {
   return (
     <div className="col-span-full col-start-2 mx-auto max-w-2xl">
       <div className="hidden border-b border-border/10 lg:block">
-        <h3 className="mb-4 text-5xl font-black">
-          Bookmarks for{" "}
-          <span className="text-gradient">
+        <h1 className="mb-4 text-5xl font-black">
+          Bookmarks for {web && "Web Development"} {ai && "AI"}
+          {/* <span className="text-gradient">
             {web && "Web Development"} {ai && "AI"}
-          </span>
-        </h3>
+          </span> */}
+        </h1>
         <p className="mb-6 text-base text-muted-foreground">{intro}</p>
       </div>
       <div className="mt-28 lg:mt-0">

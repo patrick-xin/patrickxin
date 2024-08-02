@@ -26,7 +26,7 @@ const ProjectsPage = () => {
             Projects
           </h1>
           <div className="mt-4 text-muted-foreground">
-            Selection of my projects, all are built with{" "}
+            Selection of my side projects, all are built with{" "}
             <Badge variant="indigo">Next.js</Badge> and{" "}
             <Badge variant="amber">Tailwind CSS</Badge>
           </div>
