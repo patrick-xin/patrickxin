@@ -32,7 +32,16 @@ const AboutPage = async () => {
             <p>
               Hello, I&apos;m Patrick Xin. I&apos;m a passionate web developer
               with a keen eye for design and a love for clean, efficient code.
-              With years of experience, I specialize in creating responsive,
+              I'm also the founder of{" "}
+              <a
+                className="text-primary underline"
+                href="https://www.purrspal.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Purrspal
+              </a>
+              . With years of experience, I specialize in creating responsive,
               user-friendly websites that not only look great but also perform
               flawlessly. From front-end finesse to back-end wizardry, I bring
               ideas to life in the digital realm. Always eager to embrace new

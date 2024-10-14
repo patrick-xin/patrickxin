@@ -82,6 +82,22 @@ export const PROJECT_CATEGORY: Record<ProjectCategoryKey, ProjectCategory> = {
 
 export const projects: Project[] = [
   {
+    title: "Purrspal",
+    description: "E-commerce shop for cats well-being",
+    image: {
+      src: "/assets/images/projects/purrspal.jpg",
+      alt: "purrspal landing image",
+    },
+    link: "https://www.purrspal.com/",
+    categories: [
+      PROJECT_CATEGORY.next,
+      PROJECT_CATEGORY.shopify,
+      PROJECT_CATEGORY.shadcn,
+      PROJECT_CATEGORY.neon,
+      PROJECT_CATEGORY.postgres,
+    ],
+  },
+  {
     title: "AIntelliHub",
     description: "The Social Platform for AI Tool Discovery",
     image: {
